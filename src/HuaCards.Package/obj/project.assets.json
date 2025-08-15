@@ -6131,11 +6131,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "projectUniqueName": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
       "projectName": "HuaCards.Package",
-      "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "projectPath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
       "packagesPath": "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\",
-      "outputPath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\obj\\",
+      "outputPath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\obj\\",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "fallbackFolders": [
@@ -6157,8 +6157,8 @@
         "uap10.0.17763": {
           "targetAlias": "net451",
           "projectReferences": {
-            "C:\\LanguageApp\\Language app\\src\\HuaCards\\HuaCards.csproj": {
-              "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards\\HuaCards.csproj"
+            "E:\\Miko Me\\WindowsApp\\src\\HuaCards\\HuaCards.csproj": {
+              "projectPath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards\\HuaCards.csproj"
             }
           }
         }

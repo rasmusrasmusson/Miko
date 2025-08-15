@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LanguageApp\\Language app\\src\\HuaCards\\HuaCards.csproj": {}
+    "E:\\Miko Me\\WindowsApp\\src\\HuaCards\\HuaCards.csproj": {}
   },
   "projects": {
-    "C:\\LanguageApp\\Language app\\src\\HuaCards\\HuaCards.csproj": {
+    "E:\\Miko Me\\WindowsApp\\src\\HuaCards\\HuaCards.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LanguageApp\\Language app\\src\\HuaCards\\HuaCards.csproj",
+        "projectUniqueName": "E:\\Miko Me\\WindowsApp\\src\\HuaCards\\HuaCards.csproj",
         "projectName": "Miko Me",
-        "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards\\HuaCards.csproj",
+        "projectPath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards\\HuaCards.csproj",
         "packagesPath": "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\",
-        "outputPath": "C:\\LanguageApp\\Language app\\src\\HuaCards\\obj\\",
+        "outputPath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

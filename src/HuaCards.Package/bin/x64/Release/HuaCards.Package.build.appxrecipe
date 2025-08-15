@@ -10,225 +10,225 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>29260fb7-f51a-4f78-b13c-c25ebfe81e29</PackageIdentityName>
     <PackageIdentityPublisher>CN=RasmusRasmusson</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\LanguageApp\Language app\src\HuaCards.Package\obj\x64\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\Miko Me\WindowsApp\src\HuaCards.Package\obj\x64\Release\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\LanguageApp\Language app\src\HuaCards.Package\bin\x64\Release\AppX</LayoutDir>
+    <LayoutDir>E:\Miko Me\WindowsApp\src\HuaCards.Package\bin\x64\Release\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\LanguageApp\Language app\src\HuaCards.Package\bin\x64\Release\AppxManifest.xml">
+    <AppXManifest Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\bin\x64\Release\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Wide310x150Logo.scale-400.png">
       <PackagePath>Images\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\LargeTile.scale-100.png">
       <PackagePath>Images\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\LargeTile.scale-125.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\LargeTile.scale-125.png">
       <PackagePath>Images\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\LargeTile.scale-150.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\LargeTile.scale-150.png">
       <PackagePath>Images\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\LargeTile.scale-200.png">
       <PackagePath>Images\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\LargeTile.scale-400.png">
       <PackagePath>Images\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\SmallTile.scale-100.png">
       <PackagePath>Images\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SmallTile.scale-125.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\SmallTile.scale-125.png">
       <PackagePath>Images\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SmallTile.scale-150.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\SmallTile.scale-150.png">
       <PackagePath>Images\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\SmallTile.scale-200.png">
       <PackagePath>Images\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\SmallTile.scale-400.png">
       <PackagePath>Images\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\SplashScreen.scale-100.png">
       <PackagePath>Images\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\SplashScreen.scale-125.png">
       <PackagePath>Images\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\SplashScreen.scale-150.png">
       <PackagePath>Images\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\SplashScreen.scale-200.png">
       <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\LockScreenLogo.scale-200.png">
       <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\SplashScreen.scale-400.png">
       <PackagePath>Images\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square150x150Logo.scale-100.png">
       <PackagePath>Images\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square150x150Logo.scale-125.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square150x150Logo.scale-125.png">
       <PackagePath>Images\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square150x150Logo.scale-150.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square150x150Logo.scale-150.png">
       <PackagePath>Images\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square150x150Logo.scale-200.png">
       <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square150x150Logo.scale-400.png">
       <PackagePath>Images\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.scale-100.png">
       <PackagePath>Images\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.scale-125.png">
       <PackagePath>Images\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.scale-150.png">
       <PackagePath>Images\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.scale-200.png">
       <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.scale-400.png">
       <PackagePath>Images\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.targetsize-16.png">
       <PackagePath>Images\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.targetsize-24.png">
       <PackagePath>Images\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.targetsize-256.png">
       <PackagePath>Images\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.targetsize-32.png">
       <PackagePath>Images\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Square44x44Logo.targetsize-48.png">
       <PackagePath>Images\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\StoreLogo.scale-100.png">
       <PackagePath>Images\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\StoreLogo.scale-125.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\StoreLogo.scale-125.png">
       <PackagePath>Images\StoreLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\StoreLogo.scale-150.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\StoreLogo.scale-150.png">
       <PackagePath>Images\StoreLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\StoreLogo.scale-200.png">
       <PackagePath>Images\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\StoreLogo.scale-400.png">
       <PackagePath>Images\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Wide310x150Logo.scale-100.png">
       <PackagePath>Images\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Wide310x150Logo.scale-125.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Wide310x150Logo.scale-125.png">
       <PackagePath>Images\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Wide310x150Logo.scale-150.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Wide310x150Logo.scale-150.png">
       <PackagePath>Images\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\Images\Wide310x150Logo.scale-200.png">
       <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\bin\x64\Release\resources.pri">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards.Package\bin\x64\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
@@ -423,34 +423,34 @@
     <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.web.webview2\1.0.2651.64\lib_manual\net6.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
       <PackagePath>HuaCards\Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\icon_eye-2_black.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards\Assets\icon_eye-2_black.png">
       <PackagePath>HuaCards\Assets\icon_eye-2_black.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\miko-me.png">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards\Assets\miko-me.png">
       <PackagePath>HuaCards\Assets\miko-me.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\ico128.ico">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards\Assets\ico128.ico">
       <PackagePath>HuaCards\Assets\ico128.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\ico16.ico">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards\Assets\ico16.ico">
       <PackagePath>HuaCards\Assets\ico16.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\ico256.ico">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards\Assets\ico256.ico">
       <PackagePath>HuaCards\Assets\ico256.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\ico32.ico">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards\Assets\ico32.ico">
       <PackagePath>HuaCards\Assets\ico32.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\ico48.ico">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards\Assets\ico48.ico">
       <PackagePath>HuaCards\Assets\ico48.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\ico64.ico">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards\Assets\ico64.ico">
       <PackagePath>HuaCards\Assets\ico64.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\app.ico">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards\Assets\app.ico">
       <PackagePath>HuaCards\Assets\app.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\obj\x64\Release\net8.0-windows10.0.19041.0\apphost.exe">
+    <AppxPackagedFile Include="E:\Miko Me\WindowsApp\src\HuaCards\obj\x64\Release\net8.0-windows10.0.19041.0\apphost.exe">
       <PackagePath>HuaCards\Miko Me.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

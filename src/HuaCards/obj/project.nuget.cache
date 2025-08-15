@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cpMw8fkuwS8=",
+  "dgSpecHash": "zoLBT69dkP4=",
   "success": true,
-  "projectFilePath": "C:\\LanguageApp\\Language app\\src\\HuaCards\\HuaCards.csproj",
+  "projectFilePath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards\\HuaCards.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.6\\microsoft.data.sqlite.core.8.0.6.nupkg.sha512",
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",

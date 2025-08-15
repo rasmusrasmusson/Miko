@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "czqqdUS4g38=",
+  "dgSpecHash": "9whw32zabks=",
   "success": true,
-  "projectFilePath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+  "projectFilePath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
   "expectedPackageFiles": [
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.6\\microsoft.data.sqlite.core.8.0.6.nupkg.sha512",
@@ -43,9 +43,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.EntityFrameworkCore 8.0.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net10.0-windows10.0.26100, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "projectPath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
       "warningLevel": 1,
-      "filePath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "filePath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
       "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
@@ -55,9 +55,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.EntityFrameworkCore.Abstractions 8.0.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net10.0-windows10.0.26100, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "projectPath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
       "warningLevel": 1,
-      "filePath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "filePath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
       "libraryId": "Microsoft.EntityFrameworkCore.Abstractions",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
@@ -67,9 +67,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.EntityFrameworkCore.Relational 8.0.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net10.0-windows10.0.26100, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "projectPath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
       "warningLevel": 1,
-      "filePath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "filePath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
       "libraryId": "Microsoft.EntityFrameworkCore.Relational",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
@@ -79,9 +79,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.EntityFrameworkCore.Sqlite 8.0.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net10.0-windows10.0.26100, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "projectPath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
       "warningLevel": 1,
-      "filePath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "filePath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
       "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
@@ -91,9 +91,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.EntityFrameworkCore.Sqlite.Core 8.0.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net10.0-windows10.0.26100, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "projectPath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
       "warningLevel": 1,
-      "filePath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "filePath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
       "libraryId": "Microsoft.EntityFrameworkCore.Sqlite.Core",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"

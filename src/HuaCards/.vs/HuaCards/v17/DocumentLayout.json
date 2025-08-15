@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\LanguageApp\\Language app\\src\\HuaCards\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\Miko Me\\WindowsApp\\src\\HuaCards\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE3079AD-D143-FB03-4A61-9E82EBA6F843}|HuaCards.csproj|e:\\miko me\\windowsapp\\src\\huacards\\services\\translatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE3079AD-D143-FB03-4A61-9E82EBA6F843}|HuaCards.csproj|solutionrelative:services\\translatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TranslatorService.cs",
+              "DocumentMoniker": "E:\\Miko Me\\WindowsApp\\src\\HuaCards\\Services\\TranslatorService.cs",
+              "RelativeDocumentMoniker": "Services\\TranslatorService.cs",
+              "ToolTip": "E:\\Miko Me\\WindowsApp\\src\\HuaCards\\Services\\TranslatorService.cs",
+              "RelativeToolTip": "Services\\TranslatorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T11:12:55.686Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

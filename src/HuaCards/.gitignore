@@ -1,0 +1,16 @@
+# VS / .NET build outputs
+**/bin/
+**/obj/
+
+# Visual Studio caches & local settings
+.vs/
+*.user
+*.suo
+
+# Copilot & symbol caches (the things that caused your earlier push to fail)
+**/CopilotIndices/
+**/SemanticSymbols.db
+
+# Other common IDE folders
+.vscode/
+.ReSharper*/

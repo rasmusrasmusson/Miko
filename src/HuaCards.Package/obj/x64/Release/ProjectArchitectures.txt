@@ -1,1 +1,1 @@
-C:\LanguageApp\Language app\src\HuaCards.Package\HuaCards.Package.wapproj;x64
+E:\Miko Me\WindowsApp\src\HuaCards.Package\HuaCards.Package.wapproj;x64
