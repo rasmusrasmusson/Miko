@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+    <RemoteDebugEnabled>False</RemoteDebugEnabled>
+    <AlwaysReinstall>True</AlwaysReinstall>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+    <Source>C:\LanguageApp\MikoMe.png</Source>
+    <SmallTileSource>C:\LanguageApp\MikoMe.png</SmallTileSource>
+    <MediumTileSource>C:\LanguageApp\MikoMe.png</MediumTileSource>
+    <WideTileSource>C:\LanguageApp\MikoMe.png</WideTileSource>
+    <LargeTileSource>C:\LanguageApp\MikoMe.png</LargeTileSource>
+    <AppIconSource>C:\LanguageApp\MikoMe.png</AppIconSource>
+    <SplashScreenSource>C:\LanguageApp\MikoMe.png</SplashScreenSource>
+    <PackageLogoSource>C:\LanguageApp\MikoMe.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,103 @@
+{
+  "version": 2,
+  "dgSpecHash": "czqqdUS4g38=",
+  "success": true,
+  "projectFilePath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.6\\microsoft.data.sqlite.core.8.0.6.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.6\\microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.6\\microsoft.entityframeworkcore.relational.8.0.6.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.6\\microsoft.entityframeworkcore.sqlite.8.0.6.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.6\\microsoft.entityframeworkcore.sqlite.core.8.0.6.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.web.webview2\\1.0.2651.64\\microsoft.web.webview2.1.0.2651.64.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.26100.1742\\microsoft.windows.sdk.buildtools.10.0.26100.1742.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.windowsappsdk\\1.6.250602001\\microsoft.windowsappsdk.1.6.250602001.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.6\\sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.EntityFrameworkCore 8.0.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net10.0-windows10.0.26100, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "warningLevel": 1,
+      "filePath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.EntityFrameworkCore.Abstractions 8.0.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net10.0-windows10.0.26100, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "warningLevel": 1,
+      "filePath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "libraryId": "Microsoft.EntityFrameworkCore.Abstractions",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.EntityFrameworkCore.Relational 8.0.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net10.0-windows10.0.26100, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "warningLevel": 1,
+      "filePath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "libraryId": "Microsoft.EntityFrameworkCore.Relational",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.EntityFrameworkCore.Sqlite 8.0.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net10.0-windows10.0.26100, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "warningLevel": 1,
+      "filePath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.EntityFrameworkCore.Sqlite.Core 8.0.6' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net10.0-windows10.0.26100, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "warningLevel": 1,
+      "filePath": "C:\\LanguageApp\\Language app\\src\\HuaCards.Package\\HuaCards.Package.wapproj",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763"
+      ]
+    }
+  ]
+}

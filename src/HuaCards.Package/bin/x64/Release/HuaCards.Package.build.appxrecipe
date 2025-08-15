@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BELLIX</Machine>
+    <WindowsUser>RasmusRasmusson</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>29260fb7-f51a-4f78-b13c-c25ebfe81e29</PackageIdentityName>
+    <PackageIdentityPublisher>CN=RasmusRasmusson</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\LanguageApp\Language app\src\HuaCards.Package\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\LanguageApp\Language app\src\HuaCards.Package\bin\x64\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\LanguageApp\Language app\src\HuaCards.Package\bin\x64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Wide310x150Logo.scale-400.png">
+      <PackagePath>Images\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\LargeTile.scale-100.png">
+      <PackagePath>Images\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\LargeTile.scale-125.png">
+      <PackagePath>Images\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\LargeTile.scale-150.png">
+      <PackagePath>Images\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\LargeTile.scale-200.png">
+      <PackagePath>Images\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\LargeTile.scale-400.png">
+      <PackagePath>Images\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SmallTile.scale-100.png">
+      <PackagePath>Images\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SmallTile.scale-125.png">
+      <PackagePath>Images\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SmallTile.scale-150.png">
+      <PackagePath>Images\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SmallTile.scale-200.png">
+      <PackagePath>Images\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SmallTile.scale-400.png">
+      <PackagePath>Images\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SplashScreen.scale-100.png">
+      <PackagePath>Images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SplashScreen.scale-125.png">
+      <PackagePath>Images\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SplashScreen.scale-150.png">
+      <PackagePath>Images\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\SplashScreen.scale-400.png">
+      <PackagePath>Images\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square150x150Logo.scale-100.png">
+      <PackagePath>Images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square150x150Logo.scale-125.png">
+      <PackagePath>Images\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square150x150Logo.scale-150.png">
+      <PackagePath>Images\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square150x150Logo.scale-400.png">
+      <PackagePath>Images\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.scale-100.png">
+      <PackagePath>Images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.scale-125.png">
+      <PackagePath>Images\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.scale-150.png">
+      <PackagePath>Images\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.scale-400.png">
+      <PackagePath>Images\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\StoreLogo.scale-100.png">
+      <PackagePath>Images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\StoreLogo.scale-125.png">
+      <PackagePath>Images\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\StoreLogo.scale-150.png">
+      <PackagePath>Images\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\StoreLogo.scale-200.png">
+      <PackagePath>Images\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\StoreLogo.scale-400.png">
+      <PackagePath>Images\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Wide310x150Logo.scale-100.png">
+      <PackagePath>Images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Wide310x150Logo.scale-125.png">
+      <PackagePath>Images\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Wide310x150Logo.scale-150.png">
+      <PackagePath>Images\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards.Package\bin\x64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x64\native_uap\Microsoft.Web.WebView2.Core.dll">
+      <PackagePath>HuaCards\Microsoft.Web.WebView2.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.data.sqlite.core\8.0.6\lib\net8.0\Microsoft.Data.Sqlite.dll">
+      <PackagePath>HuaCards\Microsoft.Data.Sqlite.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.entityframeworkcore\8.0.6\lib\net8.0\Microsoft.EntityFrameworkCore.dll">
+      <PackagePath>HuaCards\Microsoft.EntityFrameworkCore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.entityframeworkcore.abstractions\8.0.6\lib\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <PackagePath>HuaCards\Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.entityframeworkcore.relational\8.0.6\lib\net8.0\Microsoft.EntityFrameworkCore.Relational.dll">
+      <PackagePath>HuaCards\Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\8.0.6\lib\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll">
+      <PackagePath>HuaCards\Microsoft.EntityFrameworkCore.Sqlite.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.extensions.caching.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Caching.Abstractions.dll">
+      <PackagePath>HuaCards\Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.extensions.caching.memory\8.0.0\lib\net8.0\Microsoft.Extensions.Caching.Memory.dll">
+      <PackagePath>HuaCards\Microsoft.Extensions.Caching.Memory.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.extensions.configuration.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+      <PackagePath>HuaCards\Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>HuaCards\Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>HuaCards\Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.extensions.dependencymodel\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyModel.dll">
+      <PackagePath>HuaCards\Microsoft.Extensions.DependencyModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.extensions.logging\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.dll">
+      <PackagePath>HuaCards\Microsoft.Extensions.Logging.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>HuaCards\Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.extensions.options\8.0.0\lib\net8.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>HuaCards\Microsoft.Extensions.Options.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>HuaCards\Microsoft.Extensions.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll">
+      <PackagePath>HuaCards\Microsoft.WinUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Management.Deployment.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.Management.Deployment.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Storage.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.Storage.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.System.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.Widgets.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>HuaCards\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.bundle_e_sqlite3\2.1.6\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>HuaCards\SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.core\2.1.6\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>HuaCards\SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.6\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>HuaCards\SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-arm64\native\WebView2Loader.dll">
+      <PackagePath>HuaCards\runtimes\win-arm64\native\WebView2Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x64\native\WebView2Loader.dll">
+      <PackagePath>HuaCards\runtimes\win-x64\native\WebView2Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.web.webview2\1.0.2651.64\runtimes\win-x86\native\WebView2Loader.dll">
+      <PackagePath>HuaCards\runtimes\win-x86\native\WebView2Loader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\runtimes\win-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>HuaCards\runtimes\win-arm64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>HuaCards\runtimes\win-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>HuaCards\runtimes\win-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a">
+      <PackagePath>HuaCards\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\linux-arm\native\libe_sqlite3.so">
+      <PackagePath>HuaCards\runtimes\linux-arm\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\linux-arm64\native\libe_sqlite3.so">
+      <PackagePath>HuaCards\runtimes\linux-arm64\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\linux-armel\native\libe_sqlite3.so">
+      <PackagePath>HuaCards\runtimes\linux-armel\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\linux-mips64\native\libe_sqlite3.so">
+      <PackagePath>HuaCards\runtimes\linux-mips64\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\linux-musl-arm\native\libe_sqlite3.so">
+      <PackagePath>HuaCards\runtimes\linux-musl-arm\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\linux-musl-arm64\native\libe_sqlite3.so">
+      <PackagePath>HuaCards\runtimes\linux-musl-arm64\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\linux-musl-x64\native\libe_sqlite3.so">
+      <PackagePath>HuaCards\runtimes\linux-musl-x64\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\linux-ppc64le\native\libe_sqlite3.so">
+      <PackagePath>HuaCards\runtimes\linux-ppc64le\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\linux-s390x\native\libe_sqlite3.so">
+      <PackagePath>HuaCards\runtimes\linux-s390x\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\linux-x64\native\libe_sqlite3.so">
+      <PackagePath>HuaCards\runtimes\linux-x64\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\linux-x86\native\libe_sqlite3.so">
+      <PackagePath>HuaCards\runtimes\linux-x86\native\libe_sqlite3.so</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib">
+      <PackagePath>HuaCards\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib">
+      <PackagePath>HuaCards\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\osx-arm64\native\libe_sqlite3.dylib">
+      <PackagePath>HuaCards\runtimes\osx-arm64\native\libe_sqlite3.dylib</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\osx-x64\native\libe_sqlite3.dylib">
+      <PackagePath>HuaCards\runtimes\osx-x64\native\libe_sqlite3.dylib</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\win-arm\native\e_sqlite3.dll">
+      <PackagePath>HuaCards\runtimes\win-arm\native\e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\win-arm64\native\e_sqlite3.dll">
+      <PackagePath>HuaCards\runtimes\win-arm64\native\e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>HuaCards\runtimes\win-x64\native\e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.6\runtimes\win-x86\native\e_sqlite3.dll">
+      <PackagePath>HuaCards\runtimes\win-x86\native\e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.26100.38\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>HuaCards\Microsoft.Windows.SDK.NET.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.26100.38\lib\net6.0\WinRT.Runtime.dll">
+      <PackagePath>HuaCards\WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.web.webview2\1.0.2651.64\lib_manual\net6.0-windows10.0.17763.0\Microsoft.Web.WebView2.Core.Projection.dll">
+      <PackagePath>HuaCards\Microsoft.Web.WebView2.Core.Projection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\icon_eye-2_black.png">
+      <PackagePath>HuaCards\Assets\icon_eye-2_black.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\miko-me.png">
+      <PackagePath>HuaCards\Assets\miko-me.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\ico128.ico">
+      <PackagePath>HuaCards\Assets\ico128.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\ico16.ico">
+      <PackagePath>HuaCards\Assets\ico16.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\ico256.ico">
+      <PackagePath>HuaCards\Assets\ico256.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\ico32.ico">
+      <PackagePath>HuaCards\Assets\ico32.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\ico48.ico">
+      <PackagePath>HuaCards\Assets\ico48.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\ico64.ico">
+      <PackagePath>HuaCards\Assets\ico64.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\Assets\app.ico">
+      <PackagePath>HuaCards\Assets\app.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\LanguageApp\Language app\src\HuaCards\obj\x64\Release\net8.0-windows10.0.19041.0\apphost.exe">
+      <PackagePath>HuaCards\Miko Me.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.6.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.6</Name>
+      <Version>6000.519.329.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.6, MinVersion = 6000.519.329.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.6.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.6.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.6</Name>
+      <Version>6000.519.329.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.6, MinVersion = 6000.519.329.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.6.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.6.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.6</Name>
+      <Version>6000.519.329.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.6, MinVersion = 6000.519.329.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.6.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.6.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.6</Name>
+      <Version>6000.519.329.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.6, MinVersion = 6000.519.329.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\RasmusRasmusson\.nuget\packages\microsoft.windowsappsdk\1.6.250602001\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.6.msix</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.33728.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.33728.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.33728.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.33728.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.UWPDesktop</Name>
+      <Version>14.0.33728.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.UWPDesktop, MinVersion = 14.0.33728.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

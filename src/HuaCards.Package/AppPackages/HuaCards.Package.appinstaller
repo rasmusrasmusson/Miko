@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="file:///C:/HuaCards/HuaCards.Package.appinstaller"
+	Version="1.0.69.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="29260fb7-f51a-4f78-b13c-c25ebfe81e29"
+		Version="1.0.69.0"
+		Publisher="CN=RasmusRasmusson"
+		Uri="file:///C:/HuaCards/HuaCards.Package_1.0.69.0_Test/HuaCards.Package_1.0.69.0_x64.msixbundle" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.6"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="file:///C:/HuaCards/HuaCards.Package_1.0.69.0_Test/Dependencies/x64/Microsoft.WindowsAppRuntime.1.6.msix"
+			Version="6000.519.329.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="file:///C:/HuaCards/HuaCards.Package_1.0.69.0_Test/Dependencies/x64/Microsoft.VCLibs.x64.14.00.appx"
+			Version="14.0.33519.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="file:///C:/HuaCards/HuaCards.Package_1.0.69.0_Test/Dependencies/x64/Microsoft.VCLibs.x64.14.00.Desktop.appx"
+			Version="14.0.33728.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
