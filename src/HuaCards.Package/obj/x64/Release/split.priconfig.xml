@@ -6,7 +6,7 @@
     <autoResourcePackage qualifier="DXFeatureLevel" />
     <omitSchemaFromResourcePacks />
   </packaging>
-  <index root="\" startIndexAt="C:\LanguageApp\Language app\src\HuaCards.Package\bin\x64\Release\resources.pri">
+  <index root="\" startIndexAt="E:\Miko Me\WindowsApp\src\HuaCards.Package\bin\x64\Release\resources.pri">
     <default>
       <qualifier name="Language" value="en-US" />
       <qualifier name="Contrast" value="standard" />

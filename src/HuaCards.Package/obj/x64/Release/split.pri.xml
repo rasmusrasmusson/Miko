@@ -53,14 +53,39 @@
 						<Value>Assets\ico64.ico</Value>
 					</Candidate>
 				</NamedResource>
+				<NamedResource name="icon_arrow-down_black.png" uri="ms-resource://29260fb7-f51a-4f78-b13c-c25ebfe81e29/Files/Assets/icon_arrow-down_black.png">
+					<Candidate type="Path">
+						<Value>Assets\icon_arrow-down_black.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="icon_arrow-up_black.png" uri="ms-resource://29260fb7-f51a-4f78-b13c-c25ebfe81e29/Files/Assets/icon_arrow-up_black.png">
+					<Candidate type="Path">
+						<Value>Assets\icon_arrow-up_black.png</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="icon_eye-2_black.png" uri="ms-resource://29260fb7-f51a-4f78-b13c-c25ebfe81e29/Files/Assets/icon_eye-2_black.png">
 					<Candidate type="Path">
 						<Value>Assets\icon_eye-2_black.png</Value>
 					</Candidate>
 				</NamedResource>
+				<NamedResource name="icon_han-arrow-down_black.png" uri="ms-resource://29260fb7-f51a-4f78-b13c-c25ebfe81e29/Files/Assets/icon_han-arrow-down_black.png">
+					<Candidate type="Path">
+						<Value>Assets\icon_han-arrow-down_black.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="icon_han-arrow-up_black.png" uri="ms-resource://29260fb7-f51a-4f78-b13c-c25ebfe81e29/Files/Assets/icon_han-arrow-up_black.png">
+					<Candidate type="Path">
+						<Value>Assets\icon_han-arrow-up_black.png</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="miko-me.png" uri="ms-resource://29260fb7-f51a-4f78-b13c-c25ebfe81e29/Files/Assets/miko-me.png">
 					<Candidate type="Path">
 						<Value>Assets\miko-me.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MikoMe_Teacher.png" uri="ms-resource://29260fb7-f51a-4f78-b13c-c25ebfe81e29/Files/Assets/MikoMe_Teacher.png">
+					<Candidate type="Path">
+						<Value>Assets\MikoMe_Teacher.png</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>
@@ -176,6 +201,11 @@
 					</Candidate>
 				</NamedResource>
 				<NamedResource name="BrowsePage.xbf" uri="ms-resource://29260fb7-f51a-4f78-b13c-c25ebfe81e29/Files/Views/BrowsePage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="EditWordPage.xbf" uri="ms-resource://29260fb7-f51a-4f78-b13c-c25ebfe81e29/Files/Views/EditWordPage.xbf">
 					<Candidate type="EmbeddedData">
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>

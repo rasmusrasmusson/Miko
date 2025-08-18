@@ -10,13 +10,13 @@
     <AppxShowAllApps>False</AppxShowAllApps>
     <AppxBuildConfigurationSelection>x64</AppxBuildConfigurationSelection>
     <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
-    <Source>C:\LanguageApp\MikoMe.png</Source>
-    <SmallTileSource>C:\LanguageApp\MikoMe.png</SmallTileSource>
-    <MediumTileSource>C:\LanguageApp\MikoMe.png</MediumTileSource>
-    <WideTileSource>C:\LanguageApp\MikoMe.png</WideTileSource>
-    <LargeTileSource>C:\LanguageApp\MikoMe.png</LargeTileSource>
-    <AppIconSource>C:\LanguageApp\MikoMe.png</AppIconSource>
-    <SplashScreenSource>C:\LanguageApp\MikoMe.png</SplashScreenSource>
-    <PackageLogoSource>C:\LanguageApp\MikoMe.png</PackageLogoSource>
+    <Source>E:\Miko Me\MikoMe.png</Source>
+    <SmallTileSource>E:\Miko Me\MikoMe.png</SmallTileSource>
+    <MediumTileSource>E:\Miko Me\MikoMe.png</MediumTileSource>
+    <WideTileSource>E:\Miko Me\MikoMe.png</WideTileSource>
+    <LargeTileSource>E:\Miko Me\MikoMe.png</LargeTileSource>
+    <AppIconSource>E:\Miko Me\MikoMe.png</AppIconSource>
+    <SplashScreenSource>E:\Miko Me\MikoMe.png</SplashScreenSource>
+    <PackageLogoSource>E:\Miko Me\MikoMe.png</PackageLogoSource>
   </PropertyGroup>
 </Project>

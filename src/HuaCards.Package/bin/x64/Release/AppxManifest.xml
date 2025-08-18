@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="29260fb7-f51a-4f78-b13c-c25ebfe81e29" Publisher="CN=RasmusRasmusson" Version="1.0.69.0" ProcessorArchitecture="x64" />
+  <Identity Name="29260fb7-f51a-4f78-b13c-c25ebfe81e29" Publisher="CN=RasmusRasmusson" Version="1.0.113.0" ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>HuaCards.Package</DisplayName>
     <PublisherDisplayName>RasmusRasmusson</PublisherDisplayName>
@@ -25,7 +25,7 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="HuaCards\Miko Me.exe" EntryPoint="Windows.FullTrustApplication">
-      <uap:VisualElements DisplayName="Miko Me" Description="HuaCards.Package" BackgroundColor="transparent" Square150x150Logo="Images\Square150x150Logo.png" Square44x44Logo="Images\Square44x44Logo.png">
+      <uap:VisualElements DisplayName="Miko Me" Description="Miko Me packge" BackgroundColor="transparent" Square150x150Logo="Images\Square150x150Logo.png" Square44x44Logo="Images\Square44x44Logo.png">
         <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png" Square71x71Logo="Images\SmallTile.png" Square310x310Logo="Images\LargeTile.png" />
         <uap:SplashScreen Image="Images\SplashScreen.png" />
       </uap:VisualElements>
