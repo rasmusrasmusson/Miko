@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ikoMe.Package (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ikoMe.Package (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

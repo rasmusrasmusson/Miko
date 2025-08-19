@@ -1,0 +1,8 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.language-ug-arab"
+"ResourceDimensions"		"language-ug-cn"
+
+[Files]
+"E:\Miko Me\WindowsApp\src\MikoMe.Package\obj\x64\Release\filemap.language-ug-arab.pri"			"resources.pri"
+"E:\Miko Me\WindowsApp\src\MikoMe.Package\obj\x64\Release\PackageLayout\MikoMe\ug-CN\Microsoft.UI.Xaml.Phone.dll.mui"			"MikoMe\ug-CN\Microsoft.UI.Xaml.Phone.dll.mui"
+"E:\Miko Me\WindowsApp\src\MikoMe.Package\obj\x64\Release\PackageLayout\MikoMe\ug-CN\Microsoft.ui.xaml.dll.mui"			"MikoMe\ug-CN\Microsoft.ui.xaml.dll.mui"

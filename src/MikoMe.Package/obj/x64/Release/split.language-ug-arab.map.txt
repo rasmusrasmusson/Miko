@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-ug-arab"
+"ResourceDimensions"		"language-ug-cn"
+
+[Files]
+"E:\Miko Me\WindowsApp\src\MikoMe.Package\obj\x64\Release\split.language-ug-arab.pri"			"resources.pri"

@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-sr-latn"
+"ResourceDimensions"		"language-sr-latn-rs"
+
+[Files]
+"E:\Miko Me\WindowsApp\src\MikoMe.Package\obj\x64\Release\split.language-sr-latn.pri"			"resources.pri"

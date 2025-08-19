@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="MikoMe" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://MikoMe/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainWindow.xbf" uri="ms-resource://MikoMe/Files/MainWindow.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="app.ico" uri="ms-resource://MikoMe/Files/Assets/app.ico">
+					<Candidate type="Path">
+						<Value>Assets\app.ico</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ico128.ico" uri="ms-resource://MikoMe/Files/Assets/ico128.ico">
+					<Candidate type="Path">
+						<Value>Assets\ico128.ico</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ico16.ico" uri="ms-resource://MikoMe/Files/Assets/ico16.ico">
+					<Candidate type="Path">
+						<Value>Assets\ico16.ico</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ico256.ico" uri="ms-resource://MikoMe/Files/Assets/ico256.ico">
+					<Candidate type="Path">
+						<Value>Assets\ico256.ico</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ico32.ico" uri="ms-resource://MikoMe/Files/Assets/ico32.ico">
+					<Candidate type="Path">
+						<Value>Assets\ico32.ico</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ico48.ico" uri="ms-resource://MikoMe/Files/Assets/ico48.ico">
+					<Candidate type="Path">
+						<Value>Assets\ico48.ico</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ico64.ico" uri="ms-resource://MikoMe/Files/Assets/ico64.ico">
+					<Candidate type="Path">
+						<Value>Assets\ico64.ico</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="icon_arrow-down_black.png" uri="ms-resource://MikoMe/Files/Assets/icon_arrow-down_black.png">
+					<Candidate type="Path">
+						<Value>Assets\icon_arrow-down_black.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="icon_arrow-up_black.png" uri="ms-resource://MikoMe/Files/Assets/icon_arrow-up_black.png">
+					<Candidate type="Path">
+						<Value>Assets\icon_arrow-up_black.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="icon_eye-2_black.png" uri="ms-resource://MikoMe/Files/Assets/icon_eye-2_black.png">
+					<Candidate type="Path">
+						<Value>Assets\icon_eye-2_black.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="icon_han-arrow-down_black.png" uri="ms-resource://MikoMe/Files/Assets/icon_han-arrow-down_black.png">
+					<Candidate type="Path">
+						<Value>Assets\icon_han-arrow-down_black.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="icon_han-arrow-up_black.png" uri="ms-resource://MikoMe/Files/Assets/icon_han-arrow-up_black.png">
+					<Candidate type="Path">
+						<Value>Assets\icon_han-arrow-up_black.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="miko-me.png" uri="ms-resource://MikoMe/Files/Assets/miko-me.png">
+					<Candidate type="Path">
+						<Value>Assets\miko-me.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MikoMe_Teacher.png" uri="ms-resource://MikoMe/Files/Assets/MikoMe_Teacher.png">
+					<Candidate type="Path">
+						<Value>Assets\MikoMe_Teacher.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Styles">
+				<NamedResource name="Theme.xbf" uri="ms-resource://MikoMe/Files/Styles/Theme.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Views">
+				<NamedResource name="AddWordPage.xbf" uri="ms-resource://MikoMe/Files/Views/AddWordPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BrowsePage.xbf" uri="ms-resource://MikoMe/Files/Views/BrowsePage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="EditWordPage.xbf" uri="ms-resource://MikoMe/Files/Views/EditWordPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HelpPage.xbf" uri="ms-resource://MikoMe/Files/Views/HelpPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HomePage.xbf" uri="ms-resource://MikoMe/Files/Views/HomePage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SessionPage.xbf" uri="ms-resource://MikoMe/Files/Views/SessionPage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TranslatePage.xbf" uri="ms-resource://MikoMe/Files/Views/TranslatePage.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

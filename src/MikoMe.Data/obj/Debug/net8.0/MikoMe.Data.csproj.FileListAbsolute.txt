@@ -1,1 +1,0 @@
-E:\Miko Me\WindowsApp\src\MikoMe.Data\obj\Debug\net8.0\MikoMe.Data.csproj.AssemblyReference.cache

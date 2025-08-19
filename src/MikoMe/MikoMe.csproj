@@ -13,10 +13,6 @@
         <Platforms>x86;x64</Platforms>
     </PropertyGroup>
 
-    <PropertyGroup>
-        <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
-        <WindowsAppSDKWinAppRuntime>true</WindowsAppSDKWinAppRuntime>
-    </PropertyGroup>
 
 
     <ItemGroup>

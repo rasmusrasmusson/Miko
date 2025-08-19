@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-uz-latn"
+"ResourceDimensions"		"language-uz-latn-uz"
+
+[Files]
+"E:\Miko Me\WindowsApp\src\MikoMe.Package\obj\x64\Release\split.language-uz-latn.pri"			"resources.pri"
