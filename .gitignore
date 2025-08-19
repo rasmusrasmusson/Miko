@@ -6,3 +6,42 @@
 
 # Visual Studio folders
 .vs/
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Backup & autosave
+*.bak
+*.tmp
+*.swp
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore runtime builds
+runtimes/
+*.exe
+*.dll
+*.pdb
+
+# Publish outputs
+*.Publish.xml
+publish/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
