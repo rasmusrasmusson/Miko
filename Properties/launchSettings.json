@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MikoMe": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AZURE_TRANSLATOR_KEY": "1FtsOiiYRyiXDrribImHGSqv8zjxcMTxaSXFfnBfFAdU2aYKbjV8JQQJ99BHAC3pKaRXJ3w3AAAbACOGy19a",
+        "AZURE_TRANSLATOR_REGION": "eastasia",
+        "AZURE_TRANSLATOR_ENDPOINT": "https://api.cognitive.microsofttranslator.com"
+      }
+    }
+  }
+}
