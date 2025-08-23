@@ -45,3 +45,9 @@ publish/
 
 # VS Code
 .vscode/
+
+# Ignore large MSIX/APPX packages
+*.msixbundle
+*.pack
+obj/
+bin/
