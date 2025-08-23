@@ -1,6 +1,0 @@
-﻿[ResourceMetadata]
-"ResourceId"			"split.language-ja"
-"ResourceDimensions"		"language-ja-jp"
-
-[Files]
-"E:\Miko Me\WindowsApp\src\MikoMe.Package\obj\x64\Release\split.language-ja.pri"			"resources.pri"

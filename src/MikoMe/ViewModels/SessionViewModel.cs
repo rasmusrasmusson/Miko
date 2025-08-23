@@ -12,8 +12,6 @@ namespace MikoMe.ViewModels
 {
     public class SessionViewModel : ObservableObject
     {
-        // NOTE: TtsService is static now, so we do NOT new it here.
-
         private List<Card> _queue = new();
         private int _index = -1;
 
@@ -47,10 +45,13 @@ namespace MikoMe.ViewModels
 
         public event Action? OnVisibilityChanged;
 
+        // Show Answer Command
         public ICommand ShowCommand => new RelayCommand(() =>
         {
-            if (!IsAnswerShown) IsAnswerShown = true;
-            else _ = GradeAsync(true);
+            if (!IsAnswerShown)
+                IsAnswerShown = true;
+            else
+                _ = GradeAsync(true); // Optionally grade the card if the answer is shown
         });
 
         public ICommand PassCommand => new RelayCommand(() => _ = GradeAsync(true));
@@ -111,6 +112,7 @@ namespace MikoMe.ViewModels
 
         public Card? Current => (_index >= 0 && _index < _queue.Count) ? _queue[_index] : null;
 
+        // Loads the next card
         private Task NextAsync()
         {
             _index++;
@@ -143,6 +145,7 @@ namespace MikoMe.ViewModels
             return Task.CompletedTask;
         }
 
+        // Grades the current card
         private async Task GradeAsync(bool known)
         {
             var card = Current;

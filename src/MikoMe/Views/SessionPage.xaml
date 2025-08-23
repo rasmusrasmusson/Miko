@@ -8,34 +8,19 @@
         <vm:SessionViewModel/>
     </Page.DataContext>
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <!-- Taller top + text sections per your request -->
-            <RowDefinition Height="160"/>
-            <!-- top “clock” -->
-            <RowDefinition Height="140"/>
-            <!-- sentence -->
-            <RowDefinition Height="*"/>
-            <!-- show/answer -->
-        </Grid.RowDefinitions>
+    <Grid RowDefinitions="160,200,120,100,150">
 
-        <!-- Top: progress “clock” -->
+        <!-- Top: progress / header -->
         <Grid Grid.Row="0" Background="#FAEAD1">
-            <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
-                <Grid Width="120" Height="120">
-                    <Ellipse Stroke="#222" StrokeThickness="6"/>
-                    <Path x:Name="ProgressArc" Stroke="#222" StrokeThickness="6"/>
-                    <TextBlock x:Name="RingText"
-                               Text="{Binding ProgressText}"
-                               HorizontalAlignment="Center"
-                               VerticalAlignment="Center"
-                               FontSize="24"
-                               Foreground="Black"/>
-                </Grid>
-            </Grid>
+            <TextBlock Text="Session Header"
+                       FontSize="28"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Foreground="Black"/>
         </Grid>
 
-        <!-- Sentence section -->
+        <!-- Hanzi panel -->
         <Grid Grid.Row="1" Background="#FFD475" Padding="24">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -43,76 +28,59 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel>
-                <TextBlock Text="{Binding PromptBig}"
+                <TextBlock Text="{Binding PromptBig, FallbackValue='漢字'}"
                            FontSize="44"
                            FontWeight="SemiBold"
-                           FontFamily="{StaticResource HanziFont}"
                            Foreground="Black"/>
                 <TextBlock x:Name="PinyinTextElement"
-                           Text="{Binding PromptSmall}"
+                           Text="{Binding PromptSmall, FallbackValue='hànzì'}"
                            FontSize="22"
                            Opacity="0.8"
-                           Foreground="Black"/>
+                           Foreground="Black"
+                           Visibility="Visible"/>
             </StackPanel>
 
-            <!-- Speaker -->
-            <Button Grid.Column="1" Width="56" Height="48" Margin="12" Click="Speak_Click">
-                <FontIcon Glyph="&#xE15D;" FontFamily="Segoe Fluent Icons" FontSize="24"/>
-            </Button>
+            <!-- Speaker button -->
+            <Button Grid.Column="1"
+                    Width="56" Height="48"
+                    Margin="12"
+                    Content="🔊"/>
         </Grid>
 
-        <!-- Show / Answer area -->
+        <!-- Pinyin / English answer panel -->
         <Grid Grid.Row="2" Background="White">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-
-            <!-- Translation (hidden until shown) -->
             <TextBlock x:Name="AnswerTextElement"
-                       Grid.Row="0"
-                       Text="{Binding AnswerText}"
+                       Text="{Binding AnswerText, FallbackValue='English Answer Here'}"
                        FontSize="24"
                        Foreground="Black"
                        TextWrapping="Wrap"
                        HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
                        Margin="24"
-                       Visibility="Collapsed"/>
+                       Visibility="Visible"/>
+        </Grid>
 
-            <!-- Know / Don't know (moved down a bit) -->
+        <!-- Actions panel -->
+        <Grid Grid.Row="3" Background="LightGray">
             <StackPanel x:Name="ActionsPanelElement"
-                        Grid.Row="1"
                         Orientation="Horizontal"
                         Spacing="18"
                         HorizontalAlignment="Center"
-                        Margin="0,18,0,24"
-                        Visibility="Collapsed">
-
-                <Button Width="220" Height="70" Click="Pass_Click"
-                        BorderThickness="2" BorderBrush="#84B068">
-                    <FontIcon Glyph="&#xE73E;" FontFamily="Segoe Fluent Icons"
-                              FontSize="40" Foreground="#84B068"/>
-                </Button>
-
-                <Button Width="220" Height="70" Click="Fail_Click"
-                        BorderThickness="2" BorderBrush="#CC4B4B">
-                    <FontIcon Glyph="&#xE711;" FontFamily="Segoe Fluent Icons"
-                              FontSize="40" Foreground="#CC4B4B"/>
-                </Button>
+                        VerticalAlignment="Center"
+                        Visibility="Visible">
+                <Button Width="120" Height="60" Content="Pass"/>
+                <Button Width="120" Height="60" Content="Fail"/>
             </StackPanel>
+        </Grid>
 
-            <!-- Reveal button (rectangle, centered) -->
+        <!-- Reveal button -->
+        <Grid Grid.Row="4" Background="LightBlue">
             <Button x:Name="ShowButtonElement"
-                    Grid.Row="2"
                     Width="220" Height="70"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
-                    Click="ShowButton_Click">
-                <!-- use the PNG so there’s no stray ‘<’ in an attribute -->
-                <Image Source="ms-appx:///Assets/icon_eye-2_black.png"
-                       Width="42" Height="42" Stretch="Uniform"/>
-            </Button>
+                    Content="Reveal"
+                    Visibility="Visible"/>
         </Grid>
     </Grid>
 </Page>

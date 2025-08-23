@@ -1,3 +1,4 @@
+using MikoMe.Models;
 using MikoMe.Services;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
@@ -16,16 +17,17 @@ namespace MikoMe.Views
         public AddWordPage()
         {
             InitializeComponent();
-            HanziTextBox.TextChanged += HanziTextBox_TextChanged; // 👈 listen for text changes
+            HanziTextBox.TextChanged += HanziTextBox_TextChanged;
         }
 
-        // ---- paste (button + Ctrl+V)
-        private async void PasteButton_Click(object sender, RoutedEventArgs e) => await PasteFromClipboardIntoAsync(HanziTextBox);
+        // ---- Paste ----
+        private async void PasteButton_Click(object sender, RoutedEventArgs e) =>
+            await PasteIntoAsync(HanziTextBox);
 
         private async void PasteKbd_Invoked(KeyboardAccelerator sender, KeyboardAcceleratorInvokedEventArgs args)
         {
             args.Handled = true;
-            await PasteFromClipboardIntoAsync(HanziTextBox);
+            await PasteIntoAsync(HanziTextBox);
         }
 
         private static OcrEngine CreateBestOcrEngine()
@@ -34,8 +36,14 @@ namespace MikoMe.Views
             return OcrEngine.TryCreateFromLanguage(zh) ??
                    OcrEngine.TryCreateFromUserProfileLanguages();
         }
+        // Keyboard shortcut: Ctrl+Enter → Save
+        private void SaveKbd_Invoked(KeyboardAccelerator sender, KeyboardAcceleratorInvokedEventArgs args)
+        {
+            args.Handled = true;
+            Save_Click(this, new RoutedEventArgs());
+        }
 
-        private async Task PasteFromClipboardIntoAsync(TextBox target)
+        private async Task PasteIntoAsync(TextBox target)
         {
             try
             {
@@ -61,15 +69,15 @@ namespace MikoMe.Views
                         var engine = CreateBestOcrEngine();
                         if (engine == null)
                         {
-                            StatusText.Text = "OCR engine not available. Install Chinese (Simplified) OCR in Windows language features.";
+                            StatusText.Text = "OCR engine not available.";
                             return;
                         }
 
                         var result = await engine.RecognizeAsync(sb);
-                        target.Text = result?.Text?.Trim();
+                        target.Text = result?.Text?.Trim().Replace(" ", ""); // remove spaces from Hanzi
                         StatusText.Text = string.IsNullOrWhiteSpace(target.Text)
-                            ? "OCR ran, but no readable text was found."
-                            : "Extracted text from image (OCR).";
+                            ? "OCR ran, but no text found."
+                            : "Extracted text from image.";
                         return;
                     }
                 }
@@ -82,7 +90,7 @@ namespace MikoMe.Views
             }
         }
 
-        // ---- Auto-translate when Hanzi changes ----
+        // ---- Auto translate ----
         private async void HanziTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             var hanzi = (HanziTextBox.Text ?? "").Trim();
@@ -95,12 +103,8 @@ namespace MikoMe.Views
 
             try
             {
-                // Translate to English
-                EnglishTextBox.Text = await TranslatorService.TranslateToEnglishAsync(hanzi);
-
-                // Transliterate to Pinyin
                 PinyinTextBox.Text = await TranslatorService.TransliterateToPinyinAsync(hanzi);
-
+                EnglishTextBox.Text = await TranslatorService.TranslateToEnglishAsync(hanzi);
                 StatusText.Text = "Translation updated.";
             }
             catch (Exception ex)
@@ -109,17 +113,44 @@ namespace MikoMe.Views
             }
         }
 
-        // ---- Save (button + Ctrl+Enter)
-        private void SaveKbd_Invoked(KeyboardAccelerator sender, KeyboardAcceleratorInvokedEventArgs args)
+        // ---- Save ----
+        private async void Save_Click(object sender, RoutedEventArgs e)
         {
-            args.Handled = true;
-            Save_Click(this, new RoutedEventArgs());
+            try
+            {
+                var hanzi = HanziTextBox.Text.Trim();
+                var pinyin = PinyinTextBox.Text.Trim();
+                var english = EnglishTextBox.Text.Trim();
+
+                if (string.IsNullOrEmpty(hanzi) || string.IsNullOrEmpty(english))
+                {
+                    StatusText.Text = "Please enter at least Hanzi and English.";
+                    return;
+                }
+
+                var db = DatabaseService.Context;
+                var word = new Word { Hanzi = hanzi, Pinyin = pinyin, English = english };
+                db.Words.Add(word);
+                db.Cards.Add(new Card { Word = word, Direction = CardDirection.ZhToEn, DueAtUtc = DateTime.UtcNow });
+                db.Cards.Add(new Card { Word = word, Direction = CardDirection.EnToZh, DueAtUtc = DateTime.UtcNow });
+                await db.SaveChangesAsync();
+
+                ClearForm();
+                StatusText.Text = "Saved. You can add another word.";
+            }
+            catch (Exception ex)
+            {
+                StatusText.Text = $"Save failed: {ex.Message}";
+            }
         }
 
-        private void Save_Click(object sender, RoutedEventArgs e)
+        private void ClearButton_Click(object sender, RoutedEventArgs e) => ClearForm();
+
+        private void ClearForm()
         {
-            // TODO: put your DB insert here
-            StatusText.Text = "Saved.";
+            HanziTextBox.Text = "";
+            PinyinTextBox.Text = "";
+            EnglishTextBox.Text = "";
         }
     }
 }

@@ -68,6 +68,9 @@ namespace MikoMe
                 case "help":
                     ContentHost.Navigate(typeof(HelpPage));
                     break;
+                case "language_practice":
+                    ContentHost.Navigate(typeof(LanguageSessionPage));
+                    break;
             }
         }
     }

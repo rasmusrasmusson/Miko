@@ -236,6 +236,10 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "JiebaNet.Segmenter": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -243,6 +247,10 @@
             "Microsoft.WindowsAppSDK": {
               "target": "Package",
               "version": "[1.7.250310001, )"
+            },
+            "ToolGood.Words": {
+              "target": "Package",
+              "version": "[3.1.0.2, )"
             }
           },
           "imports": [

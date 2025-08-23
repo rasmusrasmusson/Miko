@@ -13,15 +13,27 @@
         <Platforms>x86;x64</Platforms>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Remove="Views\LanguageSessionPage.xaml" />
+    </ItemGroup>
+
 
 
     <ItemGroup>
+        <PackageReference Include="JiebaNet.Segmenter" Version="1.0.6" />
         <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.7.250310001" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
+        <PackageReference Include="ToolGood.Words" Version="3.1.0.2" />
     </ItemGroup>
 
     <ItemGroup>
         <ProjectReference Include="..\MikoMe.Data\MikoMe.Data.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Page Update="Views\LanguageSessionPage.xaml">
+        <Generator>MSBuild:Compile</Generator>
+      </Page>
     </ItemGroup>
 
 </Project>

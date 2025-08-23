@@ -1,8 +1,0 @@
-﻿[ResourceMetadata]
-"ResourceId"			"filemap.language-bs"
-"ResourceDimensions"		"language-bs-latn-ba"
-
-[Files]
-"E:\Miko Me\WindowsApp\src\MikoMe.Package\obj\x64\Release\filemap.language-bs.pri"			"resources.pri"
-"E:\Miko Me\WindowsApp\src\MikoMe.Package\obj\x64\Release\PackageLayout\MikoMe\bs-Latn-BA\Microsoft.UI.Xaml.Phone.dll.mui"			"MikoMe\bs-Latn-BA\Microsoft.UI.Xaml.Phone.dll.mui"
-"E:\Miko Me\WindowsApp\src\MikoMe.Package\obj\x64\Release\PackageLayout\MikoMe\bs-Latn-BA\Microsoft.ui.xaml.dll.mui"			"MikoMe\bs-Latn-BA\Microsoft.ui.xaml.dll.mui"

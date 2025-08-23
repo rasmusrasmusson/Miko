@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kR05+RhO/jY=",
+  "dgSpecHash": "Bki89UDOe1Y=",
   "success": true,
   "projectFilePath": "E:\\Miko Me\\WindowsApp\\src\\MikoMe.Package\\MikoMe.Package.wapproj",
   "expectedPackageFiles": [
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\jiebanet.segmenter\\1.0.6\\jiebanet.segmenter.1.0.6.nupkg.sha512",
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.0\\microsoft.data.sqlite.core.9.0.0.nupkg.sha512",
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
@@ -25,6 +26,7 @@
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.web.webview2\\1.0.2903.40\\microsoft.web.webview2.1.0.2903.40.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.26100.1742\\microsoft.windows.sdk.buildtools.10.0.26100.1742.nupkg.sha512",
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250310001\\microsoft.windowsappsdk.1.7.250310001.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.10\\sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\sqlitepclraw.core\\2.1.10\\sqlitepclraw.core.2.1.10.nupkg.sha512",
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.10\\sqlitepclraw.lib.e_sqlite3.2.1.10.nupkg.sha512",
@@ -37,7 +39,8 @@
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.text.encodings.web\\9.0.0\\system.text.encodings.web.9.0.0.nupkg.sha512",
     "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512",
-    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\RasmusRasmusson\\.nuget\\packages\\toolgood.words\\3.1.0.2\\toolgood.words.3.1.0.2.nupkg.sha512"
   ],
   "logs": [
     {
@@ -96,6 +99,18 @@
       "warningLevel": 1,
       "filePath": "E:\\Miko Me\\WindowsApp\\src\\MikoMe.Package\\MikoMe.Package.wapproj",
       "libraryId": "Microsoft.EntityFrameworkCore.Sqlite.Core",
+      "targetGraphs": [
+        "UAP,Version=v10.0.17763"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'ToolGood.Words 3.1.0.2' was restored using '.NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1, net10.0-windows10.0.26100, .NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.17763'. This package may not be fully compatible with your project.",
+      "projectPath": "E:\\Miko Me\\WindowsApp\\src\\MikoMe.Package\\MikoMe.Package.wapproj",
+      "warningLevel": 1,
+      "filePath": "E:\\Miko Me\\WindowsApp\\src\\MikoMe.Package\\MikoMe.Package.wapproj",
+      "libraryId": "ToolGood.Words",
       "targetGraphs": [
         "UAP,Version=v10.0.17763"
       ]

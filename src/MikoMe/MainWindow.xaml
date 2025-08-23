@@ -36,6 +36,10 @@
                 <NavigationViewItem Content="Session (英→中)"  Icon="Play"          Tag="session_en_zh"/>
                 <NavigationViewItem Content="Translate"       Icon="Globe"         Tag="translate"/>
                 <NavigationViewItem Content="Help"            Icon="Help"          Tag="help"/>
+                <NavigationViewItem Content="Language Practice" 
+                             Icon="Page" 
+                            Tag="language_practice" />
+               
             </NavigationView.MenuItems>
 
             <!-- Where pages render -->

@@ -1,7 +1,0 @@
-﻿[ResourceMetadata]
-"ResourceId"			"split.language-sr-cyrl"
-"ResourceDimensions"		"language-sr-cyrl-ba"
-"ResourceDimensions"		"language-sr-cyrl-rs"
-
-[Files]
-"E:\Miko Me\WindowsApp\src\MikoMe.Package\obj\x64\Release\split.language-sr-cyrl.pri"			"resources.pri"
